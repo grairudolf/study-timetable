@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,17 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Study schedule specific colors
+				study: {
+					purple: '#8B5CF6',
+					blue: '#3B82F6',
+					green: '#10B981',
+					red: '#EF4444',
+					orange: '#F59E0B',
+					pink: '#EC4899',
+					yellow: '#F59E0B',
+					indigo: '#6366F1',
 				}
 			},
 			borderRadius: {
